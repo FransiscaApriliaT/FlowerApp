@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">FlowerApp</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="flower_name">Flower Name</string>
+    <string name="latin_name">Latin Name</string>
+    <string name="origin">Origin</string>
+    <string name="meaning">Meaning</string>
+
+    <string-array name="data_name">
+        <item>Rose</item>
+        <item>Sunflower</item>
+        <item>Tulip</item>
+        <item>Aster</item>
+        <item>Camellia</item>
+        <item>Carnation</item>
+        <item>Cherry_Blossom</item>
+        <item>Chrysan</item>
+        <item>Clematis</item>
+        <item>Cymbidium</item>
+        <item>Dahlia</item>
+        <item>Freesia</item>
+        <item>Gardenia</item>
+        <item>Iris</item>
+        <item>Jasmine</item>
+        <item>Lavender</item>
+        <item>Lily</item>
+        <item>Marigold</item>
+        <item>Peony</item>
+        <item>Poppy</item>
+    </string-array>
+
+    <string-array name="data_latin_name">
+        <item>Rosa</item>
+        <item>Helianthus annuus</item>
+        <item>Tulipa</item>
+        <item>Aster amellus</item>
+        <item>Camellia japonica</item>
+        <item>Dianthus caryophyllus</item>
+        <item>Prunus serrulata</item>
+        <item>Chrysanthemum morifolium</item>
+        <item>Clematis vitalba</item>
+        <item>Cymbidium</item>
+        <item>Dahlia pinnata</item>
+        <item>Freesia</item>
+        <item>Gardenia jasminoides</item>
+        <item>Iris germanica</item>
+        <item>Jasminum</item>
+        <item>Lavandula</item>
+        <item>Lilium</item>
+        <item>Tagetes</item>
+        <item>Paeonia</item>
+        <item>Papaver</item>
+    </string-array>
+
+    <string-array name="data_origin">
+        <item>Asia, Eropa, Amerika</item>
+        <item>Amerika Utara</item>
+        <item>Asia Tengah</item>
+        <item>Amerika Utara, Asia</item>
+        <item>Asia Timur</item>
+        <item>Eropa, Asia</item>
+        <item>Jepang, Asia Timur</item>
+        <item>Asia, Eropa Timur</item>
+        <item>Asia, Eropa</item>
+        <item>Asia Tropis</item>
+        <item>Meksiko, Amerika Tengah</item>
+        <item>Afrika Selatan</item>
+        <item>Asia, Afrika</item>
+        <item>Eropa, Asia, Afrika Utara</item>
+        <item>Asia Selatan, Afrika</item>
+        <item>Mediterania</item>
+        <item>Asia, Eropa, Amerika Utara</item>
+        <item>Meksiko, Amerika Selatan</item>
+        <item>Asia Timur</item>
+        <item>Eropa, Asia, Amerika Utara</item>
+    </string-array>
+
+    <string-array name="data_meaning">
+        <item>Love, romance, and affection</item>
+        <item>Happiness, warmth, and loyalty</item>
+        <item>Perfect love and deep emotions</item>
+        <item>Elegance, patience, and subtle beauty</item>
+        <item>Admiration, gratitude, and perfection</item>
+        <item>Distinction, fascination, and love</item>
+        <item>Beauty, transience, and fleeting life</item>
+        <item>Longevity, loyalty, and joy</item>
+        <item>Creativity, mental strength, intellect</item>
+        <item>Luxury, grace, and respecty</item>
+        <item>Inner strength, dignity, and creativity</item>
+        <item>Purity, innocence, and trust</item>
+        <item>Refinement, secret love, and joy</item>
+        <item>Wisdom, valor, and faith</item>
+        <item>Grace, purity, and sensuality</item>
+        <item>Serenity, calmness, and devotion</item>
+        <item>Elegance, purity, and rebirth</item>
+        <item>Warmth, creativity, and remembrance</item>
+        <item>Prosperity, honor, and good fortune</item>
+        <item>Rest, peace, and remembrance</item>
+    </string-array>
+
+    <array name="data_photo">
+        <item>@drawable/rose</item>
+        <item>@drawable/sun</item>
+        <item>@drawable/tulip</item>
+        <item>@drawable/aster</item>
+        <item>@drawable/camellia</item>
+        <item>@drawable/carnation</item>
+        <item>@drawable/cherry_blossom</item>
+        <item>@drawable/chrysan</item>
+        <item>@drawable/clematis</item>
+        <item>@drawable/cymbidium</item>
+        <item>@drawable/dahlia</item>
+        <item>@drawable/freesia</item>
+        <item>@drawable/gardenia</item>
+        <item>@drawable/iris</item>
+        <item>@drawable/jasmine</item>
+        <item>@drawable/lavender</item>
+        <item>@drawable/lily</item>
+        <item>@drawable/marigold</item>
+        <item>@drawable/peony</item>
+        <item>@drawable/poppy</item>
+    </array>
+</resources>

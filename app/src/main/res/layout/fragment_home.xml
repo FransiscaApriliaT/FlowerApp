@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".HomeFragment" android:orientation="vertical">
+    <!--  AppBarLayout with ImageView  -->
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/appBar_id" android:layout_width="match_parent" android:layout_height="200dp">
+        <!--  Image that acts as a header image  -->
+        <ImageView android:id="@+id/programmer_id" android:layout_width="match_parent" android:layout_height="match_parent" android:padding="10dp" android:src="@drawable/floral_reverie" android:scaleType="centerCrop"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <!--  TabLayout for navigation  -->
+    <com.google.android.material.tabs.TabLayout android:id="@+id/tab_layout_id" android:layout_width="match_parent" android:layout_height="wrap_content" app:tabGravity="fill" app:tabMode="fixed" app:tabTextColor="@color/white" app:tabIndicatorColor="@color/black" android:background="@color/white"/>
+    <!--  TextView displaying message below the TabLayout  -->
+    <TextView android:id="@+id/textView_welcome" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Welcome to the Floral Reverie Catalog!" android:textSize="20sp" android:textColor="@android:color/black" android:layout_marginTop="20dp" android:layout_gravity="center"/>
+    <!--  ViewPager for page switching (the fragment content)  -->
+    <androidx.viewpager.widget.ViewPager android:id="@+id/viewpager_id" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

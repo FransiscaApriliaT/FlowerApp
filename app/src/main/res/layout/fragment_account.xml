@@ -1,0 +1,9 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".AccountFragment">
+    <!--  LinearLayout to arrange TextViews vertically  -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:gravity="center">
+        <!--  First TextView  -->
+        <TextView android:id="@+id/tv_account_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="About this account" android:textSize="24sp" android:textColor="@android:color/black" android:layout_marginBottom="8dp" android:gravity="center"/>
+        <!--  Second TextView  -->
+        <TextView android:id="@+id/tv_account_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Floral Reverie is a curated flower catalog showcasing the beauty of nature. Explore timeless roses, exotic orchids, and more, paired with tips for care and appreciation. Perfect for inspiration, special moments, or adding elegance to your day. " android:textSize="16sp" android:textColor="@android:color/darker_gray" android:gravity="center"/>
+    </LinearLayout>
+</FrameLayout>
